@@ -19,6 +19,8 @@ Copyright 2025-latest I. Mitterfellner
 #pragma once
 
 #include <string>
+#include "buildinfo.hpp"
+
 #include <argparse.hpp>
 
 struct flagsStruct
@@ -31,4 +33,4 @@ struct flagsStruct
     bool advancedProccessLogs = false;
 };
 
-flagsStruct handleRunArgs(int argc, char *argv[], std::string version);
+flagsStruct handleRunArgs(int argc, char *argv[]);

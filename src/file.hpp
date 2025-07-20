@@ -53,4 +53,4 @@ int checkFileAccess(const std::filesystem::path &path, int amode);
 
 fileStruct readFile(std::string absoluteReadPath = "");
 
-std::string pathToAbsolutePath(std::string pathStr);    
+std::string pathToAbsolutePath(std::string pathStr);

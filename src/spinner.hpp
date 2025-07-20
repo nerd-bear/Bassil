@@ -10,7 +10,8 @@
 enum spinnerType
 {
     brail,
-    dot
+    dot,
+    bar
 };
 
 namespace spinner

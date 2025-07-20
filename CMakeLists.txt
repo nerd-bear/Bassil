@@ -28,6 +28,7 @@ add_executable(Bassil
     src/indicators.hpp
     src/spinner.hpp
     src/cursor.hpp
+    src/config.hpp
 )
 
 target_include_directories(Bassil PRIVATE src)

@@ -26,8 +26,6 @@ Copyright 2025-latest I. Mitterfellner
 #include <csignal>
 #include <cstdlib>
 
-#define version "A1.0.0"
-
 void exitSignalHandler(int signalIndex)
 {
     std::cout << "Interrupt signal (" << signalIndex << ") received.\n";
@@ -52,7 +50,7 @@ int main(int argc, char *argv[])
     // A termination request sent to the program.
     signal(SIGTERM, exitSignalHandler);
 
-    flagsStruct runArgs = handleRunArgs(argc, argv, version);
+    flagsStruct runArgs = handleRunArgs(argc, argv);
 
     std::string inputPath = runArgs.inputPath;
     std::string outputPath = runArgs.outputPath;
@@ -61,10 +59,10 @@ int main(int argc, char *argv[])
     bool generalProccessLogs = runArgs.generalProccessLogs;
     bool advancedProccessLogs = runArgs.advancedProccessLogs;
 
-    // AAHHH 
+    // AAHHH
 
     if (inputPath.length() == 0)
-    {
+    { 
         std::cout << "File input path Invalid\n";
         exit(1);
     }

@@ -17,10 +17,11 @@ Copyright 2025-latest I. Mitterfellner
 */
 
 #include "runargs.hpp"
+#include "buildinfo.hpp"
 
-flagsStruct handleRunArgs(int argc, char *argv[], std::string version)
+flagsStruct handleRunArgs(int argc, char *argv[])
 {
-    argparse::ArgumentParser program("bassil", version);
+    argparse::ArgumentParser program("bassil", BuildInfo::VERSION_STR);
 
     // ========= ARGS =========
     program.add_argument("-o", "--output", "--outputFile")
@@ -67,5 +68,5 @@ flagsStruct handleRunArgs(int argc, char *argv[], std::string version)
         program.get<bool>("-log"),
         program.get<bool>("-alog")};
 
-    return flagsStruct{};
+    return returnFlagsStruct;
 }

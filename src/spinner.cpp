@@ -12,6 +12,7 @@ struct WinUTF8Setup
 
 const std::vector<std::string> brailSpinner = {"⣷", "⣯", "⣟", "⡿", "⢿", "⣻", "⣽", "⣾"};
 const std::vector<std::string> dotSpinner = {"⠈", "⠐", "⠠", "⢀", "⡀", "⠄", "⠂", "⠁"};
+const std::vector<std::string> barSpinner = {"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█", "▇", "▆", "▅", "▄", "▃", "▁"};
 
 namespace spinner
 {
@@ -36,7 +37,26 @@ namespace spinner
 
         this->active = true;
         int index = 0;
-        std::vector<std::string> currentType = (type == brail) ? brailSpinner : dotSpinner;
+        std::vector<std::string> currentType;
+
+        switch (type)
+        {
+        case bar:
+            currentType = barSpinner;
+            break;
+
+        case brail:
+            currentType = brailSpinner;
+            break;
+
+        case dot:
+            currentType = dotSpinner;
+            break;
+
+        default:
+            currentType = brailSpinner;
+            break;
+        }
 
         while (active)
         {

@@ -1,0 +1,10 @@
+^C:\USERS\NERDB\DESKTOP\CODING-PROJECTS\BASSIL\SRC\BWNL\BUILD\CMAKEFILES\FA2D6B81A991DD6AEE5B6C3B1B893271\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nerdb/Desktop/coding-projects/bassil/src/BWNL -BC:/Users/nerdb/Desktop/coding-projects/bassil/src/BWNL/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/nerdb/Desktop/coding-projects/bassil/src/BWNL/build/BWNL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

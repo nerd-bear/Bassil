@@ -106,7 +106,7 @@ int checkFileAccess(const std::filesystem::path &path, int amode)
         return std::filesystem::exists(status) ? 0 : -1;
     case WRITE_OK:
         return (perms & std::filesystem::perms::owner_write) != std::filesystem::perms::none ? 0 : -1;
-    case XX_OK:
+    case XX_OK: 
         return (perms & std::filesystem::perms::owner_exec) != std::filesystem::perms::none ? 0 : -1;
     default:
         return -1;

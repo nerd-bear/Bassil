@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\main.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\main.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/main.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\errorhandler.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\errorhandler.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/errorhandler.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/errorhandler.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\file.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\file.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/file.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/file.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\levenshtein.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\levenshtein.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/levenshtein.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/levenshtein.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\lexer.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\lexer.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/lexer.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/lexer.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\parser.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\parser.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/parser.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\runargs.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\runargs.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/runargs.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/runargs.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\spinner.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\spinner.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/spinner.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/spinner.cpp.obj"
+},
+{
+  "directory": "C:/Users/nerdb/Desktop/coding-projects/bassil/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Bassil.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Bassil.dir\\src\\cursor.cpp.obj -c C:\\Users\\nerdb\\Desktop\\coding-projects\\bassil\\src\\cursor.cpp",
+  "file": "C:/Users/nerdb/Desktop/coding-projects/bassil/src/cursor.cpp",
+  "output": "CMakeFiles/Bassil.dir/src/cursor.cpp.obj"
+}
+]

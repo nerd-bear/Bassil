@@ -1,0 +1,3 @@
+C:/Users/nerdb/Desktop/coding-projects/bassil/src/BWNL/build/CMakeFiles/BWNL.dir
+C:/Users/nerdb/Desktop/coding-projects/bassil/src/BWNL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/nerdb/Desktop/coding-projects/bassil/src/BWNL/build/CMakeFiles/ZERO_CHECK.dir

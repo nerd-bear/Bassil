@@ -17,7 +17,6 @@ Copyright 2025-latest I. Mitterfellner
 */
 
 #include "runargs.hpp"
-#include "buildinfo.hpp"
 
 flagsStruct handleRunArgs(int argc, char *argv[])
 {

@@ -9,3 +9,7 @@ The next big language. Basl: Is a modern, mid-level interpreted/compiled program
 - Expandable open-source standard library
 - Built in web socket and https management though C++ boost abstraction
 - Support for easy creating and using community made libraries
+
+---
+
+Made by [Nerd Bear](https://nerdbear.org). More about Bassil at [nerdbear.org/projects/bassil](https://nerdbear.org/projects/bassil).
